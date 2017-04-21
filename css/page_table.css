@@ -895,7 +895,12 @@ padding-left: 2%;
       left: -218px;
   }
 }
-
+@media screen and (max-width: 542px) {
+  .armyvedio iframe {
+      top: -133px;
+      left: -419px;
+  }
+}
 @media screen and (max-width: 360px) {
 	.small-up-2 > .column, .small-up-2 > .columns {
 	    float: left;
